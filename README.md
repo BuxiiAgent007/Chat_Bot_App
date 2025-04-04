@@ -49,6 +49,23 @@ var greeting = new voice_greeting();
 Make sure to handle sound file deployment properly when distributing the app.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# ASCII Art Logo 
 
+This C# program loads a `logo.jpg` image from the root directory of the project, resizes it to 150x120 pixels, 
+and renders it as ASCII art in the console. It converts each pixel to a grayscale value and maps that to a specific ASCII character.
+
+## Key Features
+- Dynamically locates the image based on the project's base directory.
+- Converts the image to grayscale.
+- Uses ASCII characters to visualize the image in the console.
+
+## Requirements
+- A `logo.jpg` image placed in the root folder of the project (same level as the `.csproj` file).
+- .NET Framework or .NET Core to run the application.
+
+## Usage
+Build and run the project. The console will display the ASCII representation of the image.
+
+Author: Obakeng Thapelo Makgae ST10437854
 
 
